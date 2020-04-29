@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile images</title>
+    <style>
+        body{
+            background-color: #333;
+            margin: 0;
+        }
+        .profile{
+            background-color:rgb(83, 122, 83) ;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            border: 3px solid rgb(74, 100, 74);
+            float: left;
+            margin: 55px;
+            overflow: hidden;
+        }
+       .profile img{
+            transition: 0.25s;
+        }
+       .profile figcaption{
+            text-align: center;
+            color: whitesmoke;
+            width: inherit;
+            background-color: rgb(83, 122, 83);
+            padding: 10px;
+            height: 170px;
+            font-size: 12px;
+        }
+        .profile ul{
+            list-style: none;
+            text-align: left;
+        }
+        .profile img:hover{
+            margin: -200px;
+            opacity: 0;
+        }
+        .profile p{
+            width: 120px;
+        }
+       .profile h2{
+           font-size: 17px;
+        
+        }
+       .profile h3{
+            margin: 0;  
+        }
+        
+    </style>
+</head>
+<body>
+    <figure class="profile">
+        <img src="images/avatar.jpg" alt="Marchel Rodriges">
+        <figcaption>
+            <h2>Marchel Rodriges</h2>
+            <h3>Manager</h3>
+            <ul>
+                <li><img width="15" height="15" src="images/metro_skype_11383.png "><a href="skype_id">Rodriges</a></img></li>
+                <li><img width="15" height="15" src="images/phone.png"></img><a href="tel:+373123456789">+373123456789</a></li>
+                <li><img width="15" height="15" src="images/w512h5121347464662EmailChat.png"><a href="mail">mail</a></img></li>
+            </ul>
+            
+        </figcaption>
+    </figure>
+    <figure class="profile" >
+        <img width="200px" height="200px" src="images/next.jpg" alt="John Tsopa">
+        <figcaption>
+            <h2>John Tsopa</h2>
+            <h3>Designer</h3>
+             <ul>
+                <li><img width="15" height="15" src="images/metro_skype_11383.png "><a href="skype_id">Tsopa</a></img></li>
+                <li><img width="15" height="15" src="images/phone.png"></img><a href="tel:+373123456789">+373123456789</a></li>
+                <li><img width="15" height="15" src="images/w512h5121347464662EmailChat.png"><a href="mail">mail</a></img></li>
+               </ul>
+        </figcaption>
+    </figure>
+    
+</body>
+</html>
